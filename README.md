@@ -1,7 +1,7 @@
 # CS372 Mini Project 1 — WFH Burnout Risk Classification
 
 > **การจำแนกประเภทความเสี่ยงภาวะหมดไฟจากการทำงานที่บ้าน**  
-> ด้วยเทคนิค Machine Learning: kNN · Gradient Boosting · Neural Network
+> ด้วยเทคนิค Machine Learning: kNN · XGBoost · Neural Network
 
 ---
 
@@ -36,7 +36,7 @@
 | โมเดล | CV Accuracy | Test Accuracy |
 |:---|:---:|:---:|
 | k-Nearest Neighbors (kNN) | 0.9675 ± 0.0116 | 0.9700 |
-| **Gradient Boosting** ⭐ | **0.9994 ± 0.0013** | **1.0000** |
+| **XGBoost** ⭐ | **0.9994 ± 0.0013** | **1.0000** |
 | Neural Network (MLP) | 0.9769 ± 0.0094 | 0.9725 |
 
 *Thammasat University · Bachelor of Science in Computer Science · CS372 Machine Learning · 2/2567*
